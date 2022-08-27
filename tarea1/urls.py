@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from tarea1.views import home
+from tarea1.views import Plantillahija1
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('home/',home),
+    path('Plantillahija/', Plantillahija1),
 ]
 
