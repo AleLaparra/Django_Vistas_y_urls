@@ -18,9 +18,9 @@ from django.urls import path
 from tarea1.views import home
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
 
-    path('home/',home),
-    
+
+
+
 ]
-
+    
