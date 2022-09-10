@@ -19,7 +19,7 @@ from Apps.home import views
 from .views import HomeView
 urlpatterns = [
 
-path('',HomeView.as_view(), name='homeapp')
+path('',HomeView.as_view(), name='home')
 
 
 ]
