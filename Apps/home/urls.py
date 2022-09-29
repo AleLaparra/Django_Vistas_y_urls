@@ -32,5 +32,8 @@ path('estudiantes/',EstudiantesView.as_view(), name='estudiantesapp'),
 path('admins/',AdminsView.as_view(), name='adminsapp'),
 
 path('acerca/',AcercadeView.as_view(), name='acercadeapp')
+
+
+
 ]
     
